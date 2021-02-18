@@ -1,0 +1,12 @@
+li::before {
+  content: url(/quotes.png);
+  display: inline-block;
+  vertical-align: auto;
+
+}
+
+li::after{
+    content: url(/quotes.png);
+    display: inline-block;
+}
+body{font-size: 50px;}
